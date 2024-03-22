@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./docs",
+    "paths": {
+      "vitepress/client/*": ["node_modules/vitepress/dist/client/*"]
+    }
+  },
+  "include": ["**/*", "**/*.vue","**/*.svg"]
+}
