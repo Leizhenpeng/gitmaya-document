@@ -4,19 +4,20 @@ const sec1 = {
     text: 'Quick Start',
     collapsible: false,
     items: [
+        { text: 'GitMaya 介绍', link: '/guide/tutorial/intro' },
         { text: '快速部署', link: '/guide/tutorial/deploy' },
         { text: 'GitMaya 基础概念',link:'/guide/tutorial/basic'},
         { text: '配置 GitMaya',link:'/guide/tutorial/config'},
+        { text: '在飞书上使用 GitMaya',link:'/guide/feishu/operate'},
     ],
 };
 
-const sec2 :DefaultTheme.SidebarGroup= {
-    text:'飞书操作',
-    collapsible: false,
-    items:[
-        { text: '在飞书上使用 GitMaya',link:'/guide/feishu/operate'},
-    ]
-}
+// const sec2 :DefaultTheme.SidebarGroup= {
+//     text:'飞书操作',
+//     collapsible: false,
+//     items:[
+//     ]
+// }
 
 // const sec3 :DefaultTheme.SidebarGroup= {
 //     text:'顺便提提',
@@ -31,7 +32,7 @@ const sec2 :DefaultTheme.SidebarGroup= {
 
 
 export const sidebar: DefaultTheme.Sidebar = {
-    '/guide/': [sec1,sec2
+    '/guide/': [sec1
 
     ],
     '/en/guide/': [{
