@@ -1,24 +1,21 @@
 import {DefaultTheme} from 'vitepress/types/default-theme';
 const tutorial = [
-    { text: '快速上手', link: '/guide/tutorial/start'},
-    { text: '使用场景', link: '/guide/tutorial/useCase'},
-    { text: '我们的不同', link: '/guide/tutorial/enhance'},
+    { text: '快速上手', link: '/guide/tutorial/deploy'},
+    { text: 'GitMaya 基础概念', link: '/guide/tutorial/basic'},
+    { text: '配置 GitMaya',link:'/guide/tutorial/config'},
 ];
 
-const advance = [
-    { text: '表单结构', link: '/guide/advance/table'},
-    { text: '单元格类型', link: '/guide/advance/fieldParse'},
-    {text:'图层名称',link:'/guide/advance/nodeName'},
-    {text:'取值规则',link:'/guide/advance/obtainValue'},
+const feishu = [
+    { text: '在飞书上使用 GitMaya',link:'/guide/feishu/operate'},
 ];
 
 
 export const navbar: DefaultTheme.NavItem[] = [
-    { text: '简单介绍', items: tutorial , activeMatch: '^/guide/tutorial',},
+    { text: 'Quick Start', items: tutorial , activeMatch: '^/guide/tutorial',},
     {
         text: '详细文档',
-       items: advance,
-        activeMatch: '^/guide/advance',
+       items: feishu,
+        activeMatch: '^/guide/feishu',
     },
     // { text: '产品故事', link: 'https://support.qq.com/products/431975/team/' },
     // { text: '用户反馈', link: 'https://support.qq.com/product/431975' }
