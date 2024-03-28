@@ -29,8 +29,8 @@ GitMaya 提供支持无服务器和 [Docker 镜像][docker-release-link] 的自�
 首先，下载 `docker-compose.yml` 和 `.env` 文件；它们包含 GitMaya 服务的配置，包括 MySQL、Celery 和 Redis。
 
 ```fish
-$ wget https://raw.githubusercontent.com/ConnectAI-E/GitMaya/main/deploy/docker-compose.yml
-$ wget https://raw.githubusercontent.com/ConnectAI-E/GitMaya/main/deploy/.env.example -O .env
+$ wget [https://raw.githubusercontent.com/ConnectAI-E/GitMaya/main/deploy/docker-compose.yml](https://raw.githubusercontent.com/ConnectAI-E/GitMaya/main/deploy/docker-compose.yml)
+$ wget [https://raw.githubusercontent.com/ConnectAI-E/GitMaya/main/deploy/.env.example](https://raw.githubusercontent.com/ConnectAI-E/GitMaya/main/deploy/.env.example) -O .env
 ```
 
 ###### 2. 配置环境变量
@@ -80,7 +80,7 @@ $ docker-compose up -d
 将仓库克隆到您的本地机器或服务器：
 
 ```fish
-$ git clone https://github.com/ConnectAI-E/GitMaya.git
+$ git clone [https://github.com/ConnectAI-E/GitMaya.git](https://github.com/ConnectAI-E/GitMaya.git)
 $ cd GitMaya
 ```
 
