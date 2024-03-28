@@ -27,12 +27,12 @@
 
 ### 3.4 绑定人员
 
-进入 [https://gitmaya.com/app/people](https://gitmaya.com/app/people) 来绑定飞书内部成员和 GitHub 团队成员
+进入 [人员管理页面](https://gitmaya.com/app/people) 来绑定飞书内部成员和 GitHub 团队成员
 ![](../../asset/img/onboard-4.png)
 
 ## 4. 创建飞书群组
 
-- 进入 [https://gitmaya.com/app/repo](https://gitmaya.com/app/repo) 来创建飞书群组，对应的群组会和代码仓库关联
+- 进入 [仓库管理页面](https://gitmaya.com/app/repo) 来创建飞书群组，对应的群组会和代码仓库关联
   ![](../../asset/img/onboard-5.png)
 
 - 对于新创建的 GitHub 代码仓库，可以从飞书自建应用的机器人窗口中，通过新仓库消息卡片来创建飞书群组
