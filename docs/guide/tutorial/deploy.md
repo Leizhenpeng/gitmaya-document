@@ -6,7 +6,7 @@
 
 ### 步骤 1. 安装 GitHub 应用
 
-您首先需要创建一个 GitHub 应用，详细信息请参考 [从零开始部署 GitHub 应用][Deploy GitHub App From Scratch]。
+您首先需要创建一个 GitHub 应用，详细信息请参考 [从零开始部署 GitHub 应用](https://connect-ai.feishu.cn/wiki/OnVNwqZlhi5yM4keBWAcUF3ynFf?from=from_copylink)。
 
 ### 步骤 2. 部署 GitMaya
 
@@ -29,8 +29,8 @@ GitMaya 提供支持无服务器和 [Docker 镜像][docker-release-link] 的自�
 首先，下载 `docker-compose.yml` 和 `.env` 文件；它们包含 GitMaya 服务的配置，包括 MySQL、Celery 和 Redis。
 
 ```fish
-$ wget [https://raw.githubusercontent.com/ConnectAI-E/GitMaya/main/deploy/docker-compose.yml](https://raw.githubusercontent.com/ConnectAI-E/GitMaya/main/deploy/docker-compose.yml)
-$ wget [https://raw.githubusercontent.com/ConnectAI-E/GitMaya/main/deploy/.env.example](https://raw.githubusercontent.com/ConnectAI-E/GitMaya/main/deploy/.env.example) -O .env
+$ wget https://raw.githubusercontent.com/ConnectAI-E/GitMaya/main/deploy/docker-compose.yml
+$ wget https://raw.githubusercontent.com/ConnectAI-E/GitMaya/main/deploy/.env.example -O .env
 ```
 
 ###### 2. 配置环境变量
@@ -80,7 +80,7 @@ $ docker-compose up -d
 将仓库克隆到您的本地机器或服务器：
 
 ```fish
-$ git clone [https://github.com/ConnectAI-E/GitMaya.git](https://github.com/ConnectAI-E/GitMaya.git)
+$ git clone https://github.com/ConnectAI-E/GitMaya.git
 $ cd GitMaya
 ```
 
@@ -129,7 +129,7 @@ CELERY_BROKER_URL=redis://redis:6379/1
 CELERY_RESULT_BACKEND=redis://redis:6379/2
 ```
 
-配置 GitHub App，详细信息请参考: [从零开始部署 GitHub App][Deploy GitHub App From Scratch]
+配置 GitHub App，详细信息请参考: [从零开始部署 GitHub App](https://connect-ai.feishu.cn/wiki/OnVNwqZlhi5yM4keBWAcUF3ynFf?from=from_copylink)
 
 ```fish
 # GitHub 设置
@@ -192,17 +192,11 @@ $ gunicorn --worker-class=gevent --workers 1 --bind 0.0.0.0:8888 -t 600 --keep-a
 
 ### 步骤 3. 部署飞书 App 机器人
 
-部署飞书（Lark）机器人应用的步骤已经集成到 GitMaya 的入门流程中。完成入门流程将自动完成与飞书相关的配置。更多详细信息，请参考 [从零开始部署飞书 App 机器人][Deploy Feishu App Bot From Scratch]。
+部署飞书（Lark）机器人应用的步骤已经集成到 GitMaya 的入门流程中。完成入门流程将自动完成与飞书相关的配置。更多详细信息，请参考 [从零开始部署飞书 App 机器人](https://connect-ai.feishu.cn/wiki/NQXywcS3Siqw60kYX8IcknDfn1e?from=from_copylink)。
 
 ## 📕 参考
 
-- [从零开始部署飞书 App 机器人][Deploy Feishu App Bot From Scratch]
-- [从零开始部署 GitHub App][Deploy GitHub App From Scratch]
-- [飞书 App 官方文档][Feishu App Official Doc]
-- [GitHub App 官方文档][GitHub App Official Doc]
-
-[Deploy GitHub App From Scratch]: https://connect-ai.feishu.cn/wiki/OnVNwqZlhi5yM4keBWAcUF3ynFf?from=from_copylink
-[Deploy GitHub App From Scratch]: https://connect-ai.feishu.cn/wiki/Qwq0wmamFiFTaXk1hfocwfpNnqf?from=from_copylink
-[Deploy Feishu App Bot From Scratch]: https://connect-ai.feishu.cn/wiki/NQXywcS3Siqw60kYX8IcknDfn1e?from=from_copylink
-[Feishu App Official Doc]: https://open.feishu.cn/document/home/develop-a-bot-in-5-minutes/step-1-create-app-and-enable-robot-capabilities
-[GitHub App Official Doc]: https://docs.github.com/en/developers/apps/creating-a-github-app
+- [从零开始部署飞书 App 机器人](https://connect-ai.feishu.cn/wiki/NQXywcS3Siqw60kYX8IcknDfn1e?from=from_copylink)
+- [从零开始部署 GitHub App](https://connect-ai.feishu.cn/wiki/OnVNwqZlhi5yM4keBWAcUF3ynFf?from=from_copylink)
+- [飞书 App 官方文档](https://open.feishu.cn/document/home/develop-a-bot-in-5-minutes/step-1-create-app-and-enable-robot-capabilities)
+- [GitHub App 官方文档](https://docs.github.com/en/developers/apps/creating-a-github-app)
