@@ -52,4 +52,3 @@
 - GitMaya 支持一个群聊同时关联多个仓库，在群聊回复`/match repo_url` 即可关联当前群聊
   ![](../../asset/img/feishu-11.png)
 - 群聊关联多个仓库时，交互逻辑有所不同，**Issue 和 Pr 需要在对应的仓库话题中进行操作**
-  ![](../../asset/img/feishu-12.png)
