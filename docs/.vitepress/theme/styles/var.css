@@ -3,10 +3,10 @@
  * -------------------------------------------------------------------------- */
 
 :root {
-  --vp-c-brand: #1e8e3e;
-  --vp-c-brand-light: #22A347 ;
-  --vp-c-brand-lighter: #2BCD5A ;
-  --vp-c-brand-lightest: #51DA78 ;
+  --vp-c-brand: #ffd11a;
+  --vp-c-brand-light: #ffd11a ;
+  --vp-c-brand-lighter: #ffdd33 ;
+  --vp-c-brand-lightest: #ffe64d ;
   --vp-c-brand-dark: #483838;
   --vp-c-brand-darker: #3A2D2D ;
   --vp-c-brand-dimm: rgba(100, 108, 255, 0.08);
@@ -36,7 +36,7 @@
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(
     120deg,
-    #BAF1CA  10%,
+    #e6b800  10%,
     var(--vp-c-brand-lightest)
   );
 

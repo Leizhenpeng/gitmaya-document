@@ -11,7 +11,7 @@ export default {
     description: `${ ogDescription }`,
     lastUpdated: true,
     head: [
-        ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.png' }],
+        ['link', { rel: 'icon', type: 'image/svg+xml', href: '/gitmaya.png' }],
         ['meta', { property: 'og:type', content: 'website' }],
         ['meta', { property: 'og:title', content: ogTitle }],
         ['meta', { property: 'og:image', content: ogImage }],
@@ -48,7 +48,7 @@ export default {
             prev: '上一篇',
             next: '下一篇',
         },
-        logo: '/logo.png',
+        logo: '/gitmaya.png',
         siteTitle: 'GitMayaDocs',
 
         nav: navbar,
