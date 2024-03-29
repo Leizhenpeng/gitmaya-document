@@ -9,7 +9,7 @@ hero:
   text: One chat = One repo
   tagline: high-performance GitOps for boosting developer-teams productivity
   image:
-    src: /home.png
+    src: /gitmaya.png
     alt: GitMaya
   actions:
     - theme: brand
@@ -17,27 +17,27 @@ hero:
       link: /guide/tutorial/intro
 
 features:
-  - icon: ⛑
-    title: 谷歌表格 | 维格表 | 飞书 | 金山文档
-    details: 在线表格遇上在线设计,再次赋予创作全新力量
-
-  - icon: 🔩
-    title: 拥抱windicss语法
-    details: 采用windicss原子类样式缩写语法,提供丰富的样式配置,让你的设计更加丰富多彩
-
-  - icon: 📦
-    title: 多类型支持
-    details: 提供针对文本,字体,图片,颜色,透明度等多种格式内容填充
-
-  - icon: 🇨🇳
-    title: 告别翻墙
-    details: 提供多款国内表格接口,享受极速同步体验
-
   - icon: 👋
-    title: 快速入门
-    details: 简约清晰的文档+入门讲解的视频+最小可行的在线设计稿模板
+    title: One Repo = One Chat
+    details: 在一个聊天群中管理项目所有进展（：现在也支持关联多个仓库
 
-  - icon: 🪧
-    title: 热爱用户
-    details: 追踪用户反馈, 产品持续迭代
+  - icon: 🚀
+    title: Issue 处理集成
+    details: 不出群聊，接管所有 Issue 操作
+
+  - icon: 🔄
+    title: Pr 处理集成
+    details: 从 code-diff 到 merge pr，加速代码审核
+
+  - icon: 🛠
+    title: CI/CD 和 GitHub Actions 处理集成(Coming soon!)
+    details: 对话中便捷获取最新 Github Action 进展
+
+  - icon: 💬
+    title: 简化 GitHub 消息互动
+    details: 在聊天工具管理所有 GitHub 互动，不再需要切换上下文
+
+  - icon: 🌐
+    title: 跨平台支持
+    details: 聊天平台支持飞书, Discord, Slack, Microsoft Teams, 和 TG。代码托管支持 Github 和 GitLab
 ---

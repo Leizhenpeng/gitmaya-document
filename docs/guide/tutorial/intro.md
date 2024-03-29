@@ -16,6 +16,6 @@
 
 🛠 **CI/CD 和 GitHub Actions 处理集成** 对话中便捷获取最新 Github Action 进展
 
-💬 **简化 GitHub 消息互动** 在聊天工具管理所有 GitHub 互动，不再需要切换上下文。
+💬 **简化 GitHub 消息互动** 在聊天工具管理所有 GitHub 互动，不再需要切换上下文
 
 🌐 **跨平台支持** 聊天平台支持 飞书, Discord, Slack, Microsoft Teams, 和 TG。代码托管支持 Github 和 GitLab
