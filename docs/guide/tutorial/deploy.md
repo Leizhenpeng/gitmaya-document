@@ -18,10 +18,6 @@ GitMaya 提供支持无服务器和 [Docker 镜像][docker-release-link] 的自�
 
 #### `A` 使用 Docker-Compose 部署
 
-[![][docker-release-shield]][docker-release-link]
-[![][docker-size-shield]][docker-size-link]
-[![][docker-pulls-shield]][docker-pulls-link]
-
 我们提供了一个 Docker 镜像，用于在您自己的私人设备上部署 GitMaya 服务。使用以下命令启动 GitMaya 服务：
 
 ###### 1. 下载 `docker-compose.yml` 和 `.env` 文件
